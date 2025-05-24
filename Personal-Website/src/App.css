@@ -1,0 +1,71 @@
+.PageWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 10px;
+  height: 95vh;
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  border: solid black;
+  background-color: rgb(82, 141, 147);
+  width: 75%;
+  height: 100;
+}
+
+.AboutMeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  border: solid black;
+  background-color: rgb(78, 139, 78);
+  width: 25%;
+  height: 100;
+}
+
+.MainContentWrapper {
+  margin: 30px;
+  padding: 40px;
+  border: solid;
+}
+
+.ImgWrapper {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: solid;
+  border-radius: 15px;
+}
+
+.ImgWrapper img {
+  width: 150px;
+  height: 150px;
+}
+
+.ContactWrapper {
+  border: dotted;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ContactWrapper ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ContactWrapper li {
+  list-style: none;
+  padding: 0;
+}
+
+.ContactWrapper h4 {
+  margin-top: 0;
+}
