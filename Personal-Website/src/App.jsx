@@ -1,17 +1,11 @@
 import './App.css'
-import SideInfo from './SideInfo'
-import MainContent from './MainContent'
+import Desktop from './components/Desktop'
 
 function App() {
 
   return (
     <>
-      <div className='PageWrapper'>
-      <SideInfo />
-        <div className='ContentWrapper'>
-        <MainContent />
-        </div>
-      </div>
+      <Desktop />
     </>
   )
 }

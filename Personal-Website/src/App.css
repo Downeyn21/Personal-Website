@@ -1,71 +1,81 @@
-.PageWrapper {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-  gap: 10px;
-  height: 95vh;
-}
-
-.ContentWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  border: solid black;
-  background-color: rgb(82, 141, 147);
-  width: 75%;
-  height: 100;
-}
-
-.AboutMeWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  border: solid black;
-  background-color: rgb(78, 139, 78);
-  width: 25%;
-  height: 100;
-}
-
-.MainContentWrapper {
-  margin: 30px;
-  padding: 40px;
-  border: solid;
-}
-
-.ImgWrapper {
-  overflow: hidden;
-  width: 150px;
-  height: 150px;
-  border: solid;
-  border-radius: 15px;
-}
-
-.ImgWrapper img {
-  width: 150px;
-  height: 150px;
-}
-
-.ContactWrapper {
-  border: dotted;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.ContactWrapper ul {
+body {
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ContactWrapper li {
-  list-style: none;
+.desktop-container {
+  background-color: rgb(28, 28, 28);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-container {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 100px);
+  grid-template-columns: repeat(auto-fill, 100px);
+  gap: 5px;
+  width: 100vw;
+  height: calc(100vh - 48.5px);
+  overflow: hidden;
+}
+
+.icon {
+  background-color: blue;
+}
+
+.taskbar-container {
+  width: 100vw;
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(177, 177, 177);
+  border-top: outset 4px rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
   padding: 0;
+
 }
 
-.ContactWrapper h4 {
-  margin-top: 0;
+.start-button-container {
+  width: 85px;
+  margin: 5px;
+  border: outset ;
+  border-top: outset white;
+  border-left: outset white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start-img-container {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: fit-content;
+}
+
+.start-img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.clock-container {
+  margin: 5px;
+  width: 85px;
+  border: inset  ;
+  border-bottom: inset white;
+  border-right: inset white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
