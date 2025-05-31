@@ -29,8 +29,19 @@ body {
 }
 
 .icon {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: whitesmoke;
+  cursor: pointer;
 }
+
+.icon img {
+  height: 50%;
+}
+
 
 .taskbar-container {
   width: 100vw;
@@ -54,6 +65,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 .start-img-container {
